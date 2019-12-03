@@ -4,9 +4,13 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>My First Site</title>
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet"> 
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"> 
+		<!-- Fontawesome -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
@@ -31,10 +35,10 @@
 
 		<section id="home-page-banner">
 			<div class="my-container">
-				<div class="the-best">
+				<div class="the-best" data-aos="fade-right" data-aos-duration="2000">
 					<h1>The Best Coffee <br>In The World</h1>
 				</div>
-				<div class="banner-bnt">
+				<div class="banner-bnt" data-aos="fade-right" data-aos-duration="2000">
 					<a href="#" class="site-bnt">Learn More <i class="fa fa-angle-right translated" aria-hidden="true"></i></a>
 				</div>
 			</div>
@@ -42,7 +46,7 @@
 		<section id="coffee-home-sec2" class="sec-whiteSpace">
 			<div class="my-container">
 				<div class="my-row">
-					<div class="flex-50">
+					<div class="flex-50" data-aos="fade-right" data-aos-duration="2000">
 						<div class="welcome-head">
 							<h3>Our Latte Welcomes You!</h3>
 						</div>
@@ -91,7 +95,7 @@
 				</div>
 
 				<div class="my-row">
-					<div class="flex-33 center-text">
+					<div class="flex-33 center-text" data-aos="fade-down-right" data-aos-duration="1000">
 						<div class="coffee-menu">
 							<img src="img/cappuccino.jpg">
 							<h4>
@@ -103,7 +107,7 @@
 							<p>Lorem ipsum dolor sit amet</p>
 						</div>
 					</div>
-					<div class="flex-33 center-text">
+					<div class="flex-33 center-text" data-aos="fade-down" data-aos-duration="1000">
 						<div class="coffee-menu">
 							<img src="img/frappuccino.jpg">
 							<h4>
@@ -115,7 +119,7 @@
 							<p>Lorem ipsum dolor sit amet</p>
 						</div>
 					</div>
-					<div class="flex-33 center-text">
+					<div class="flex-33 center-text" data-aos="fade-down-left" data-aos-duration="1000">
 						<div class="coffee-menu">
 							<img src="img/caramellato.jpg">
 							<h4>
@@ -131,7 +135,7 @@
 				<div class="my-row top-40">
 					<div class="flex-33 center-text">
 						<div class="coffee-menu">
-							<img src="img/tall-coffee.jpg">
+							<img src="img/tall-coffee.jpg" data-aos="fade-up-right" data-aos-duration="1000">
 							<h4>
 								Tall Coffee
 							</h4>
@@ -143,7 +147,7 @@
 					</div>
 					<div class="flex-33 center-text">
 						<div class="coffee-menu">
-							<img src="img/coffee-romano.jpg">
+							<img src="img/coffee-romano.jpg" data-aos="fade-up" data-aos-duration="1000">
 							<h4>
 								Coffee Romano
 							</h4>
@@ -153,7 +157,7 @@
 							<p>Lorem ipsum dolor sit amet</p>
 						</div>
 					</div>
-					<div class="flex-33 center-text">
+					<div class="flex-33 center-text" data-aos="fade-up-left" data-aos-duration="1000">
 						<div class="coffee-menu">
 							<img src="img/ristretto.jpg">
 							<h4>
@@ -166,7 +170,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="see-menu">
+				<div class="see-menu" data-aos="zoom-out-down" data-aos-duration="1000">
 					<a href="#" class="site-bnt">See Menu <i class="fa fa-angle-right translated" aria-hidden="true"></i></a>
 				</div>
 			</div>
@@ -174,7 +178,7 @@
 
 		<section id="coffee-menus-onfire" class="sec-whiteSpace">
 			<div class="my-container">
-				<div class="text-center top-cup">
+				<div class="text-center top-cup" data-aos="fade-right" data-aos-duration="2000">
 					<img src="img/coffee_cup.png">
 				</div>
 				<div class="my-row">
@@ -262,6 +266,11 @@
 			</div>
 		</footer>
 	</body>
+	<!-- AOS JS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
 
 	<script type="text/javascript">
 		window.onscroll = function() {myFunction()};
