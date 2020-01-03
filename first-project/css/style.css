@@ -521,6 +521,12 @@ p.gal-cont-text {
     .my-container {
         max-width: 600px;
     }
+	.my-header-flex {
+	    flex-direction: row;
+	}
+	.site-menu {
+	    display: none;
+	}
     #home-page-banner {
         padding: 315px 0 110px;
     }
