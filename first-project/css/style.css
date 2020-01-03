@@ -530,8 +530,35 @@ p.gal-cont-text {
     #home-page-banner {
         padding: 315px 0 110px;
     }
+	.sec-whiteSpace {
+	    padding: 60px 0;
+	}
     h1 {
         font-size: 70px;
         font-family: inherit;
     }
+	h3 {
+	    font-size: 45px;
+	}
+	h4 {
+	    font-size: 28px;
+	}
+	.welcome-subhead h4 {
+	    font-size: 28px;
+	}
+	#coffee-home-sec2 {
+	    padding-bottom: 160px;
+	}
+	.hover-zoom {
+	    height: 300px;
+	}
+	.coffee-menu img {
+	    width: 80%;
+	}
+	.section-title h3 {
+	    font-size: 50px;
+	}
+	.testimonial-content h5 {
+	    font-size: 20px;
+	}
 }
