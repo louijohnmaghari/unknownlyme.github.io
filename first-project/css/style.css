@@ -561,4 +561,61 @@ p.gal-cont-text {
 	.testimonial-content h5 {
 	    font-size: 20px;
 	}
+	.flex-25 {
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+}
+@media only screen and (max-width: 640px){
+	.my-container {
+		max-width: 420px;
+	    }
+	.flex-50 {
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	#site-footer h4 {
+	    font-size: 16px;
+	}
+	
+}
+@media only screen and (max-width: 440px){
+	.my-container {
+		max-width: 300px;
+	    }
+	#home-page-banner {
+	    padding: 270px 0 100px;
+	}
+	h1 {
+	    font-size: 50px;
+	}
+	h3 {
+	    font-size: 40px;
+	}
+	.welcome-subhead h4 {
+	    font-size: 25px;
+	}
+	.flex-33 {
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	#ourmenu-sec .flex-33 {
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.section-title h3 {
+	    font-size: 40px;
+	}
+	#coffee-menus-onfire p {
+	    width: 80%;
+	}
+	.flex-25 {
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+}
+@media only screen and (max-width: 320px){
+	.my-container {
+		max-width: 80%;
+	    }
 }
