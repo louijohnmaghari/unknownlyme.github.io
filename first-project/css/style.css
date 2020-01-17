@@ -516,6 +516,9 @@ p.gal-cont-text {
     .my-container {
         max-width: 747px;
     }
+	#coffee-menus-onfire p {
+		width: 90%;
+	}
 }
 @media only screen and (max-width: 767px){
     .my-container {
