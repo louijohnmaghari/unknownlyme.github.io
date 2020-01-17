@@ -571,6 +571,13 @@ p.gal-cont-text {
 	.testimonial-content h5 {
 		width: 90%;
 	}
+	.section-title h3 {
+	    width: 100%;
+	    text-align: center;
+	}
+	#coffee-menus-onfire p {
+	    width: 100%;
+	}
 }
 @media only screen and (max-width: 640px){
 	.my-container {
@@ -583,7 +590,16 @@ p.gal-cont-text {
 	#site-footer h4 {
 	    font-size: 16px;
 	}
-	
+	.section-title h3 {
+	    width: 100%;
+	    text-align: center;
+	}
+	#coffee-menus-onfire p {
+	    width: 100%;
+	}
+	.testimonial-content h5 {
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 440px){
 	.my-container {
