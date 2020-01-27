@@ -602,6 +602,12 @@ p.gal-cont-text {
 	}
 }
 @media only screen and (max-width: 440px){
+       #home-page-banner {
+           padding: 180px 0 100px;
+        }
+	.logo-area img {
+            width: 265px;
+         }
 	.my-container {
 		max-width: 300px;
 	    }
@@ -640,4 +646,7 @@ p.gal-cont-text {
 	.my-container {
 		max-width: 80%;
 	    }
+	h1 {
+	    font-size: 45px;
+	}
 }
